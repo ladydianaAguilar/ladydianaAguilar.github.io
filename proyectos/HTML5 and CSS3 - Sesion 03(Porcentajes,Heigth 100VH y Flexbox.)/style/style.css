@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: Tahoma;
+}
+header{
+    width: 100%;
+    height: 70px;
+    background: rgb(13,0,36);
+    background: linear-gradient(90deg, rgba(13,0,36,1) 0%, rgba(231,195,46,1) 32%, rgba(154,119,10,1) 85%);
+    /*HEADER-BARRA SUPERIOR FIJO*/
+    position: fixed;
+    z-index: 100000;
+    top: 0;
+    left: 0;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+h1{
+    float: left;
+    color: white;
+    margin: 15px;
+}
+nav{
+    float: right;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 25px;
+
+}
+/* ESTILOS DE BANNER */
+.banner{
+    position: relative;
+    background: url(../img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100vh;
+    color: white;
+}
+.cont-banner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+/* ESTILOS DE MAIN */
+main{
+    width: 80%;
+    margin: 20px auto;
+}
+main h2{
+    text-align: center;
+    margin-bottom: 10px;
+}
+p{
+    font-size: 18px;
+    line-height: 25px;
+}
+.img-responsive{
+    width: 400px;
+    max-width: 100%;
+    display: block; /*va junto a margin, para centrarse*/ 
+    margin: auto;
+}
+/* ESTILOS DE SECTION */
+section{
+    width: 80%;
+    margin: auto;
+    /* USO DEL FLEXBOX */
+    display: flex; /*columna al lado - horizontal*/
+    flex-wrap: wrap; /*pone debajo de otro en responsive*/
+    justify-content: space-between;
+}
+article{
+    width: 350px;
+    margin-bottom: 10px;
+}
+article h3{
+    text-align: center;
+}
+article p{
+    text-align: justify;
+}
+/*ESTILOS PARA ASIDE*/
+.fondo-aside{
+    margin: 20px 0px;
+}
+.fondo-aside h2{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.asides{
+    width: 80%;
+    margin: auto;
+    /*USO DEL FLEXBOX*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+aside{
+    width: 300px;
+    margin-bottom: center;
+}
+aside h3{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.fondo-pets{
+    background: skyblue;
+    padding: 20px 0px;
+}
+.text-pet{
+    text-align: center;
+    color: purple;
+    margin-bottom: 10px;
+}
+.pets{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}    
+.pet{
+    width: 220px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.pet img{
+    width: 220px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid yellow;
+}

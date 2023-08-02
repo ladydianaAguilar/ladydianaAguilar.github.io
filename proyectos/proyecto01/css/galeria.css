@@ -1,0 +1,60 @@
+section{
+    width: 80%;
+    margin: auto;
+    display: flex; /*pone imagenes al lado de otro*/
+    flex-wrap:wrap; /*adapta imagenes debajo de otro*/
+    justify-content: space-between;
+}
+
+.img-galeria{
+    width: 22%;
+    margin-bottom: 10px;
+
+}
+
+/*Estilos para el Modelo*/
+.modelo{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 1000000;
+    background: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    display: flex;
+    align-content: center;
+}
+
+.img-modelo{
+    width: 450px;
+    display: block;
+    margin: auto;
+
+}
+
+.cerrar{
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+}
+
+/*MEDIAQUERIS > TABLETS*/
+@media only screen and (max-width:980px){
+    section{
+        width: 90%;
+    }
+    .img-galeria{
+        width: 45%;
+    }
+}
+
+/*MEDIAQUERIS > celulares*/
+@media only screen and (max-width:480px){
+    section{
+        width: 98%;
+    }
+    .img-galeria{
+        width: 100%;
+    }
+}

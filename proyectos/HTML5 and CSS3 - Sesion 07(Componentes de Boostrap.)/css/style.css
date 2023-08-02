@@ -1,0 +1,23 @@
+header{
+    background: url(../img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100vh;
+}
+.overlay{
+    background: rgba(45, 52, 54,0.5);
+    min-height: 100vh;
+}
+.mv{
+    font-size: 35px;
+    color: rgb(218, 93, 93);
+}
+article{
+    background: url(../img/Sac2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}

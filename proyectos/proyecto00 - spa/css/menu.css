@@ -1,0 +1,33 @@
+#menu{
+    display: none;
+}
+
+@media only screen and (max-width:980px){
+    #menu{
+    display: block;
+    float: right;
+    color: white;
+    font-size: 32px;
+    margin: 10px;
+    }
+    .botonera{
+        float: none;
+        position: relative;
+        left: -100%;
+    }
+
+    .botonera-open{
+        left: 0%;
+        transition: 0.5s;
+    }
+
+    .botonera ul{
+        position: absolute;
+        flex-direction: column;
+        width: 100%;
+        top: 70px;
+        background: rgb(248,254,198);
+        background: linear-gradient(90deg, rgba(248,254,198,1) 17%, rgba(241,239,41,1) 31%, rgba(182,213,144,1) 73%, rgba(128,240,28,1) 92%);
+    }
+}
+

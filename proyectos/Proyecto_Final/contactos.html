@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Contactos</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="css/galeria.css">
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="shorcut icon" href="/img/favicon.png">
+</head>
+
+<body>
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="img/logo.png" alt="" width="250px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse d-lg-flex justify-content-end" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="promoc.html">Promociones</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Servicios
+                </a>
+                <ul id="items" class="dropdown-menu">
+                  <li><a class="dropdown-item" href="servicios/traslados.html">Traslados</a></li>
+                  <li><a class="dropdown-item" href="servicios/guia.html">Guía de Trabajo</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  City Tours
+                </a>
+                <ul id="items" class="dropdown-menu">
+                  <li><a class="dropdown-item" href="citytours/tour_Lima.html">City Tours Lima</a></li>
+                  <li><a class="dropdown-item" href="citytours/tour_Paracas.html">Lima y Paracas</a></li>
+                  <li><a class="dropdown-item" href="citytours/tour_Ica.html">Lima - Paracas e Ica</a></li>
+                  <li><a class="dropdown-item" href="citytours/tour_Nazca.html">Lima - Paracas - Ica y Nazca</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="galeria.html">Galeria de Fotos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="contactos.html">Contáctenos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!--FIN NAVBAR-->
+
+<br>
+<br>
+    <!-- MAPA -->
+    <div class="mapa mt-5 pt-10">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4057.1043772108874!2d-77.03054643986164!3d-12.046013603763562!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8b5d5aa7eb1%3A0x16061e0b481e22aa!2sPlaza%20Mayor%20de%20Lima!5e0!3m2!1ses-419!2spe!4v1690667825407!5m2!1ses-419!2spe" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <!-- CONTACTOS -->
+    <section class="py-2" id="contacto">
+        <div class="container mt-5">
+            <div class="row">
+                <!-- GUIA -->
+                <div class="col-lg-6">
+                    <img class="w-100" src="img/guia2.png" alt="">
+                </div>
+                <!-- CONTÁCTENOS -->
+                <div class=" bg-light col-lg-6">
+                    <h2>Contáctenos</h2>
+                    <p>Dejanos tu Mensaje y nos comunicamos contigo.</p>
+                    <form action="enviar.php" method="POST">
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span><i class="bi bi-person-fill input-group-text h-100"></i></span>  
+                            </div>
+                            <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Usuario">
+                        </div>
+                        
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span><i class="bi bi-envelope-fill input-group-text h-100"></i></span>  
+                            </div>
+                            <input type="email" class="form-control" id="inlineFormInputGroup2" placeholder="E-mail">
+                        </div>
+                        
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span><i class="bi bi-pencil-fill input-group-text h-100" style="padding-bottom: 520%;"></i></span>  
+                            </div>
+                            <textarea name="" class="form-control" id="textarea" cols="30" rows="10" placeholder="Dejanos aquí tu Mensaje"></textarea>
+                        </div>
+
+                        <!-- BOTON ENVIAR -->
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary w-100">
+                            Enviar</button>
+                        </div>	
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FIN CONTACTOS -->
+
+    <br>
+    <br>
+        <!--Iconos de Redes Sociales-->
+    <section class="redes" id="iconos">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="iconos text-center p-5 text-white">
+                    
+                        <a href="https://www.facebook.com" target="_blank"><i class="ico bi bi-facebook"></i></a>
+                        
+                        <a href="https://www.youtube.com" target="_blank"><i class="ico bi bi-youtube"></i></a>
+                        
+                        <a href="https://pe.linkedin.com/" target="_blank"><i class="ico bi bi-linkedin"></i></a>
+                        
+                        <a href="https://web.whatsapp.com/" target="_blank"><i class="ico bi bi-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    
+
+    <!-- FOOTER -->
+  <footer class="footer bg-secondary p-4">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-3 text-white text-center">
+        <p>Dirección: Av. Los Tucanes 442 Calle Olivar cruzando en Jiron Puno.</p>
+			</div>
+			
+			<div class="col-lg-3 text-white text-center">
+				<p>Celular: 987 654 321
+				<br>
+				 Teléfono: (01) 213-4465
+				 </p>
+			</div>
+
+			<div class="col-lg-3 text-white text-center">
+				<p>E-mail
+				<br>
+					ladydiana.2005@gmail.com
+				</p>
+			</div>
+
+			<div class="col-lg-3 text-white text-center">
+				<p>
+				<span style="font-size: 30px;" class="bi bi-book-fill"></span>
+				<br>
+				Libro de Reclamaciones
+				</p>
+			</div>
+		</div>
+	</div>
+</footer>
+    
+
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+  
+  <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+
+  <script>
+    /*MOSTRAR GALERIA*/
+    $(".img-galeria").click(function(a){
+      let img=a.target.src;
+      let modelo='<div class="modelo"><img src="'+img+'" alt="" class="img-modelo"><div class="cerrar">X</div></div>';
+      $("body,html").append(modelo);
+
+      /*BOTÓN CERRAR*/
+      $(".cerrar").click(function(){
+        $(".modelo").remove();
+      })
+
+      /*TECLA ESC PARA CERRAR*/
+      $("body, html").keyup(function(e){
+        if(e.which==27){
+          $(".modelo").hide();
+        }
+      })
+
+
+    });
+
+    
+
+  </script>
+
+</body>
+
+</html>

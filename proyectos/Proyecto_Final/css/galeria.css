@@ -1,0 +1,114 @@
+body{
+	font-family: Helvetica;
+}
+body p{
+	font-size:18px;
+	line-height:32px;
+	color: #545353;
+}
+.redes{
+	background:#3d7d9f;
+    width: 100%;
+}
+
+.navbar{
+	background:#3d7d9f;
+	margin-bottom:50px; 
+}
+
+#items{
+    background-color: #5d97b7;
+}
+
+.ico{
+	margin: 20px;
+	font-size:24px;
+	padding:24px;
+	width:75px;
+	height:70px;
+	border-radius:50%;
+	background:#31408c;
+}
+
+.iconos a{
+	text-decoration:none;
+	color:#FFFFFF; 
+}
+
+footer p{
+	color: #FFFFFF;
+	font-weight: normal;
+}
+
+/* GALERIA CSS */
+section{
+    width: 80%;
+    margin: auto;
+    display: flex; /*pone imagenes al lado de otro*/
+    flex-wrap:wrap; /*adapta imagenes debajo de otro*/
+    justify-content: space-between;
+}
+
+.img-galeria{
+    width: 22%;
+    margin-bottom: 10px;
+
+}
+
+/*Estilos para el Modelo*/
+.modelo{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 1000000;
+    background: rgba(44, 31, 31, 0.5);
+    top: 0;
+    left: 0;
+    display: flex;
+    align-content: center;
+}
+
+.img-modelo{
+    width: 450px;
+    display: block;
+    margin: auto;
+
+}
+
+.cerrar{
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+
+/*MEDIAQUERIS > TABLETS*/
+@media only screen and (max-width:980px){
+    section{
+        width: 90%;
+    }
+    .img-galeria{
+        width: 45%;
+    }
+}
+
+/*MEDIAQUERIS > celulares*/
+@media only screen and (max-width:480px){
+    section{
+        width: 98%;
+    }
+    .img-galeria{
+        width: 100%;
+    }
+}
+
+/* CONTACTOS */
+.card{
+    width: auto;
+}
+
+.textarea{
+    height: fit-content;
+}

@@ -1,0 +1,36 @@
+<div class="panel panel-primary">
+			<div class="panel-heading p-2 bg-dark">
+				<h3 class="panel-title text-center text-white" data-target="#panel-3" data-toggle="collapse" data-parent="#myaccordian">ADICIONALES</h3>
+			</div>
+			<div class="panel-collapse collapse" id="panel-3">
+				<div class="panel-body">
+					
+						<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Adicionales USD (NO incluye IGV)</th>
+      <th scope="col">--</th>
+      <th scope="col">--</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Hora a disposicion (Tarifa por hora,minimo 4 horas)Hora Adicional (desde una hora)</td>
+      <td>20</td>
+      <td>30</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Guia </td>
+      <td>50</td>
+      <td>70</td>
+    </tr>
+ 
+
+  </tbody>
+</table>
+				</div>
+			</div>
+		</div>
